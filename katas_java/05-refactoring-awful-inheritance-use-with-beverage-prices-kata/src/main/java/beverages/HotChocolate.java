@@ -1,8 +1,11 @@
 package beverages;
 
-public class HotChocolate implements Beverage {
+public class HotChocolate implements Product {
+
+    private final double hotChocolatePrice = 1.45;
     @Override
     public double price() {
-        return 1.45;
+
+        return this.hotChocolatePrice;
     }
 }

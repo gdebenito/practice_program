@@ -1,8 +1,8 @@
 package beverages;
 
-public class TeaWithMilk extends Tea {
+public class TeaWithMilk implements Product {
     @Override
     public double price() {
-        return super.price() +  0.10;
+        return new Tea().price() + new Milk().price();
     }
 }

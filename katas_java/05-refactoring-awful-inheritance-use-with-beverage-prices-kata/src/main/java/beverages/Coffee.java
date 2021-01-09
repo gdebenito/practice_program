@@ -1,8 +1,9 @@
 package beverages;
 
-public class Coffee implements Beverage {
+public class Coffee implements Product {
+    private final double coffeePrice = 1.2;
     @Override
     public double price() {
-        return 1.2;
+        return this.coffeePrice;
     }
 }
