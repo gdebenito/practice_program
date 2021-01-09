@@ -1,6 +1,6 @@
 package beverages;
 
-final class Cream implements Product {
+final public class Cream implements Product {
 
     private final double creamPrice = 0.15;
 
